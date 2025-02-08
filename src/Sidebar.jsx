@@ -25,7 +25,7 @@ export default function Sidebar({ setChat, closeMenu }) {
                     sx={{
                         width: 1,
                         justifyContent: 'flex-end',
-                        color: mode == 'light' ? 'primary.dark' :'text.primary'
+                        color: mode === 'light' ? 'primary.dark' :'text.primary'
                     }}
                     onClick={closeMenu}
                 >

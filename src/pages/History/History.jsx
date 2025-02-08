@@ -1,8 +1,8 @@
 import { Typography, Box, Stack, Divider } from '@mui/material';
 import { useEffect, useState } from 'react';
-import ChatHistoryCard from '../ChatHistoryCard';
-import ChatFilter from '../ChatFilter';
-import Navbar from '../Navbar';
+import ChatHistoryCard from '../../ChatHistoryCard';
+import ChatFilter from '../../ChatFilter';
+import Navbar from '../../Navbar';
 
 export default function History() {
     const [chats, setChats] = useState([]);

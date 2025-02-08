@@ -1,13 +1,13 @@
 import { Box, Stack, Typography } from '@mui/material';
-import InitialChat from '../InitialChat';
-import ChatInput from '../ChatInput';
-import ChattingCard from '../ChattingCard';
-import FeedbackModal from '../FeedbackModal';
+import InitialChat from '../../InitialChat';
+import ChatInput from '../../ChatInput';
+import ChattingCard from '../../ChattingCard';
+import FeedbackModal from '../../FeedbackModal';
 import { useEffect, useRef, useState, useContext } from 'react';
-import data from '../aiData/sampleData.json';
+import data from '../../aiData/sampleData.json';
 import { useOutletContext } from 'react-router-dom';
-import Navbar from '../Navbar';
-import { ThemeContext } from '../theme/ThemeContext';
+import Navbar from '../../Navbar';
+import { ThemeContext } from '../../theme/ThemeContext';
 
 export default function Home() {
     const [showModal, setShowModal] = useState(false);
